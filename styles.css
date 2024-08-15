@@ -18,7 +18,7 @@ h1 {
 
 .table {
     width: 100%;
-    max-width: 90%; /* Increased max width to use more screen space */
+    max-width: 1200px; /* Increased max width to use more screen space */
 }
 
 .row {
