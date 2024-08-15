@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento de Traducción Dino Adventures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Documento de Traducción Dino Adventures</h1>
+    <div class="container">
+        <div class="table">
+            <!-- Rows will be inserted here by JavaScript -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+<script>
+   // Fetch JSON data
+fetch('translations.json')
+    .then(response => response.json())
+    .then(data => {
+        const table = document.querySelector('.table');
+
+        data.translations.forEach((item, index) => {
+            const row = document.createElement('div');
+            row.classList.add('row');
+            row.innerHTML = `
+                <div class="box">${item.es}</div>
+                <button class="copy-btn" onclick="copyText('${item.es}', this)">Copy</button>
+                
+                <div class="box">${item.qu}</div>
+                <button class="copy-btn" onclick="copyText('${item.qu}', this)">Copy</button>
+                
+                <div class="box">${item.en}</div>
+                <button class="copy-btn" onclick="copyText('${item.en}', this)">Copy</button>
+            `;
+            table.appendChild(row);
+        });
+    });
+
+// Copy text to clipboard and show checkmark
+function copyText(text, button) {
+    navigator.clipboard.writeText(text).then(() => {
+        button.disabled = true; // Disable the button and show checkmark
+        setTimeout(() => {
+            button.disabled = false; // Re-enable button after a short delay (optional)
+        }, 2000);
+    });
+}
+</script>
+</html>
