@@ -51,6 +51,14 @@ loadTranslations('tarija.json', '.tarija');
 loadTranslations('pando.json', '.pando');
 //beni
 loadTranslations('beni.json', '.beni');
+//cocha
+loadTranslations('cocha.json', '.cocha');
+//la paz
+loadTranslations('paz.json', '.paz');
+//potosi
+loadTranslations('potosi.json', '.potosi');
+//suche
+loadTranslations('sucre.json', '.sucre');
 
 // Función para cambiar entre modo oscuro y claro
 document.getElementById('theme-toggle-btn').addEventListener('click', function () {
