@@ -1,0 +1,34 @@
+{
+    "oruro": [
+        {
+            "es": "Estamos revisando la carga de camiones en un operativo sorpresa.",
+            "qu": "Juk operativo sorpresapi camionkunaq cargankunata qhawashayku",
+            "en": "We are inspecting the cargo of trucks in a surprise operation."
+        },
+        {
+            "es": "Tu misión es ayudar a Dino a diferenciar productos de contrabando y productos nacionales, bajo la orden de: ¡Di - no al contrabando!",
+            "qu": "Misionniykiqa dinoman yanapayki diferenciachinapaq contrabando productoskunawan jatun llaqta productoskunawan, kamachiyman jina: Mana niy contrabandoman",
+            "en": "Your mission is to help Dino differentiate between smuggled products and national products under the order: Say no to smuggling!"
+        },
+        {
+            "es": "Aciertos",
+            "qu": "Allin ruwaykuna",
+            "en": "Correct"
+        },
+        {
+            "es": "Fallas",
+            "qu": "Mana allin ruwaykuna",
+            "en": "Mistakes"
+        },
+        {
+            "es": "¡Acertaste!",
+            "qu": "¡Allinta ruwanki!",
+            "en": "You got it right!"
+        },
+        {
+            "es": "¡Fallaste!",
+            "qu": "¡Mana allintachu ruwarqanki!",
+            "en": "You got it wrong!"
+        }
+    ]
+}

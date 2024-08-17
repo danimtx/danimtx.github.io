@@ -1,0 +1,24 @@
+{
+    "sz": [
+        {
+            "es": "Digita el código de acceso.",
+            "qu": "Chay código nisqaman yaykuy",
+            "en": "Enter the access code."
+        },
+        {
+            "es": "Dino se ha infiltrado en las instalaciones de una organización criminal.",
+            "qu": "Dino infiltrakuska instalacionespi juk organización criminalmanta",
+            "en": "Dino has infiltrated the facilities of a criminal organization."
+        },
+        {
+            "es": "Tu misión es ayudar a Dino a encontrar información importante para detener a las personas involucradas, bajo la orden de: ¡Di - no al crimen organizado!",
+            "qu": "Misionniykiqa Dinoman yanapayki chaypi kaq runakunata jap'inankupaq importante willakuykunata tarinankupaq, kamachiyman jina: Mana niy crimen organizado nisqaman",
+            "en": "Your mission is to help Dino find important information to stop those involved, under the order: Say no to organized crime!"
+        },
+        {
+            "es": "Debes escapar sin ser detectado.",
+            "qu": "Mana tarisqalla ayqinayki tiyan",
+            "en": "You must escape without being detected."
+        }
+    ]
+}

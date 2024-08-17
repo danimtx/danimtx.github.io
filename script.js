@@ -59,6 +59,10 @@ loadTranslations('paz.json', '.paz');
 loadTranslations('potosi.json', '.potosi');
 //suche
 loadTranslations('sucre.json', '.sucre');
+//oruro
+loadTranslations('oruro.json', '.oruro');
+//sz
+loadTranslations('sz.json', '.sz');
 
 // Función para cambiar entre modo oscuro y claro
 document.getElementById('theme-toggle-btn').addEventListener('click', function () {
