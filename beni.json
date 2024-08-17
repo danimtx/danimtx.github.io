@@ -1,0 +1,19 @@
+{
+    "beni": [
+        {
+            "es": "Esta es una zona ganadera, cada persona tiene un promedio de 1000 cabezas de ganado. Esto provoca que delincuentes roben ganado de los pobladores.",
+            "qu": "Kayqa juk zona ganadomanta, sapa runa promediopi 1000 uma wakayuq chaywan suwakuna ganadota suwanku chaypi tiyaqkunamanta",
+            "en": "This is a livestock area, where each person owns an average of 1,000 cattle. This leads to criminals stealing livestock from the residents."
+        },
+        {
+            "es": "Tu misión es ayudar a Dino a capturar a los delincuentes bajo la orden de: ¡Di - no al crimen!",
+            "qu": "Misionniykiqa dinoman yanapayki chay suwakunata jap'inanpaq, kamachiyman jina: Mana niy crimen nisqaman",
+            "en": "Your mission is to help Dino capture the criminals under the order: Say no to crime!"
+        },
+        {
+            "es": "Pero ten cuidado con las vacas que están en la zona.",
+            "qu": "Ichaqa cuidakuy wakakunawan chay zonapi kachkanku",
+            "en": "But be careful with the cows in the area."
+        }
+    ]
+}

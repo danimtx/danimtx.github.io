@@ -47,6 +47,10 @@ loadTranslations('di-no.json', '.di-no-translations');
 
 // Cargar traducciones del archivo "tarija.json" en la sección de Tarija
 loadTranslations('tarija.json', '.tarija');
+//pando
+loadTranslations('pando.json', '.pando');
+//beni
+loadTranslations('beni.json', '.beni');
 
 // Función para cambiar entre modo oscuro y claro
 document.getElementById('theme-toggle-btn').addEventListener('click', function () {
