@@ -109,6 +109,11 @@
       "es": "Malo",
       "qu": "Mana allin",
       "en": "Bad"
+    },
+    {
+      "es" : "Pierdes",
+      "qu" : "chinkachiy",
+      "en" : "lose"
     }
   ]
 }
